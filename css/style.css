@@ -16,23 +16,27 @@ body {
 
 h1 {
   font-size: 4rem;
+  text-align:center;
+
 }
 
 h2 {
   font-size: 3rem;
+  margin-bottom: 2px;
+  text-align: center;
 }
 
 .container {
   width: 80%;
-  text-align: center;
 }
 
 .card1 {
   border-radius: 10px 0px 10px 0px;
-  text-align: justify;
+  text-align:justify;
   font-size: 2rem;
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
+  margin: 20px;
   width: 80%;
   text-align: center;
 }
