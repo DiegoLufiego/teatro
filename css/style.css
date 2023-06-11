@@ -1,17 +1,44 @@
-*{
-    padding: 0;
-    margin: 0 auto;
-    box-sizing: border-box;
-    font-size: 62.5%;
-    font-family: 'Exo 2', sans-serif;
-    /*border: 1px solid black;*/
+* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "Exo 2", sans-serif;
+  /*
+    border: 1px solid black;
+    */
 }
 
-h1{
-    font-size: 2rem;
+body {
+  background: linear-gradient(rgb(255, 106, 203), rgb(186, 255, 252));
+  color: black;
 }
 
-.container{
-    width: 80%;
-    text-align: center;
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+.card1 {
+  border-radius: 10px 0px 10px 0px;
+  text-align: justify;
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+.card1:hover {
+  background: white;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  transform: translate(-2px, -2px);
 }
