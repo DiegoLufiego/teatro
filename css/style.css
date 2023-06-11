@@ -4,9 +4,9 @@
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Exo 2", sans-serif;
-  /*
+  
     border: 1px solid black;
-    */
+    
 }
 
 body {
@@ -16,8 +16,7 @@ body {
 
 h1 {
   font-size: 4rem;
-  text-align:center;
-
+  text-align: center;
 }
 
 h2 {
@@ -28,17 +27,17 @@ h2 {
 
 .container {
   width: 80%;
+  display: flex;
 }
 
 .card1 {
   border-radius: 10px 0px 10px 0px;
-  text-align:justify;
-  font-size: 2rem;
+  font-size: 2.5rem;
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
   margin: 20px;
   width: 80%;
-  text-align: center;
+  text-align: justify;
 }
 
 .card1:hover {
