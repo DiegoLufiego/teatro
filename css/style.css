@@ -10,7 +10,7 @@
 }
 
 body {
-  background: linear-gradient(rgb(186, 255, 252), rgb(255, 106, 203));
+  background: linear-gradient(rgb(65, 219, 219), rgb(255, 106, 203));
   color: black;
 }
 
@@ -23,13 +23,16 @@ p, li, b, ul, span{
     font-size: 2rem;
 }
 
+img{
+    width: 50%;
+}
 span {
     text-decoration: underline;
 }
 .card1 {
   border-radius: 10px 0px 10px 0px;
   background: rgba(255, 255, 255, 0.2);
-  padding: 20px;
+  padding: 30px;
   width: 95%;
   text-align: justify;
 }
