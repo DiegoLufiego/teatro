@@ -21,7 +21,6 @@ body {
 
 p, li, b, ul, span{
     font-size: 2rem;
-    list-style-type: none;
 }
 
 span {
