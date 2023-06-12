@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 95%;
   text-align: center;
 }
 
@@ -31,7 +31,7 @@ span {
   border-radius: 10px 0px 10px 0px;
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
-  width: 80%;
+  width: 95%;
   text-align: justify;
 }
 
