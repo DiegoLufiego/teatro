@@ -20,11 +20,11 @@ body {
 }
 
 p, li, b, ul, span{
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 img{
-    width: 50%;
+    width: 70%;
 }
 span {
     text-decoration: underline;
