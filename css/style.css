@@ -38,7 +38,7 @@ span {
 }
 
 .card1:hover {
-  background: white;
+  background: rgb(255, 255, 255, .8);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   transform: translate(-2px, -2px);
 }
