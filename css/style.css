@@ -4,9 +4,9 @@
   box-sizing: border-box;
   font-size: 62.5%;
   font-family: "Exo 2", sans-serif;
-  
+  /*
     border: 1px solid black;
-    
+    */
 }
 
 body {
@@ -14,25 +14,21 @@ body {
   color: black;
 }
 
-h1 {
-  font-size: 4rem;
-  text-align: center;
-}
-
-h2 {
-  font-size: 3rem;
-  margin-bottom: 2px;
-  text-align: center;
-}
-
 .container {
   width: 80%;
   text-align: center;
 }
 
+p, li, b, ul, span{
+    font-size: 2.5rem;
+    list-style-type: none;
+}
+
+span {
+    text-decoration: underline;
+}
 .card1 {
   border-radius: 10px 0px 10px 0px;
-  font-size: 2.5rem;
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
   width: 80%;
