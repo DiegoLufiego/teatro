@@ -10,7 +10,7 @@
 }
 
 body {
-  background: linear-gradient(rgb(255, 106, 203), rgb(186, 255, 252));
+  background: linear-gradient(rgb(186, 255, 252), rgb(255, 106, 203));
   color: black;
 }
 
@@ -27,7 +27,7 @@ h2 {
 
 .container {
   width: 80%;
-  display: flex;
+  text-align: center;
 }
 
 .card1 {
@@ -35,7 +35,6 @@ h2 {
   font-size: 2.5rem;
   background: rgba(255, 255, 255, 0.2);
   padding: 20px;
-  margin: 20px;
   width: 80%;
   text-align: justify;
 }
