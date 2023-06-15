@@ -23,6 +23,12 @@ p, li, b, ul, span{
     font-size: 1.8rem;
 }
 
+ul{
+  list-style: none
+}
+
+
+
 img{
     width: 70%;
 }
@@ -31,7 +37,7 @@ span {
 }
 .card1 {
   border-radius: 10px 0px 10px 0px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.5);
   padding: 30px;
   width: 95%;
   text-align: justify;
@@ -42,4 +48,18 @@ span {
   background: rgb(255, 255, 255, .8);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   transform: translate(-2px, -2px);
+}
+
+.card2{
+  border-radius: 10px 10px 10px 10px;
+  background: rgba(178, 3, 123, 0.5);
+  padding: 30px;
+  width: 95%;
+  text-align: justify;
+  margin-bottom: 30px;
+  border: 2px solid red;
+}
+
+.card2 p {
+  color: white;
 }
