@@ -52,11 +52,14 @@ span {
 
 .card2{
   border-radius: 10px 10px 10px 10px;
-  background-image: url("../assets/papiro.png");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: rgba(178, 3, 123, 0.5);
   padding: 30px;
   width: 95%;
   text-align: justify;
   margin-bottom: 30px;
+  border: 2px solid red;
+}
+
+.card2 p {
+  color: white;
 }
