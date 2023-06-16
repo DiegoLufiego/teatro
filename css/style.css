@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-p, li, b, ul, span{
+p, li, b, ul, span, h2{
     font-size: 1.8rem;
 }
 
