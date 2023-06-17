@@ -27,7 +27,12 @@ ul{
   list-style: none
 }
 
-
+.sillas{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
 img{
     width: 70%;
