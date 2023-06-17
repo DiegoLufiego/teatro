@@ -11,7 +11,8 @@
 
 body {
   background: linear-gradient(rgb(65, 219, 219), 25%, rgb(167, 18, 99));
-  color: black;
+  color: black; 
+  margin-bottom: 150px;
 }
 
 .container {
@@ -38,7 +39,6 @@ ul {
   position: fixed;
   bottom: 0;
   left: 0;
-  margin-top: 50px;
 }
 
 .telon {
