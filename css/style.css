@@ -10,46 +10,51 @@
 }
 
 body {
-  background: linear-gradient(rgb(65, 219, 219), 25%,  rgb(167, 18, 99));
+  background: linear-gradient(rgb(65, 219, 219), 25%, rgb(167, 18, 99));
   color: black;
 }
 
 .container {
   width: 95%;
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
 }
 
-p, li, b, ul, span, h2{
-    font-size: 1.8rem;
+p,
+li,
+b,
+ul,
+span,
+h2 {
+  font-size: 1.8rem;
 }
 
-ul{
-  list-style: none
+ul {
+  list-style: none;
 }
 
-.sillas{
+.sillas {
   width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
+  margin-top: 50px;
 }
 
-.telon{
+.telon {
   width: 100%;
-  height: 100px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
- z-index: 99;
+  z-index: 99;
 }
 
-
-img{
-    width: 70%;
+img {
+  width: 70%;
 }
 span {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .card1 {
   border-radius: 10px 0px 10px 0px;
@@ -61,21 +66,21 @@ span {
 }
 
 .card1:hover {
-  background: rgb(255, 255, 255, .8);
+  background: rgb(255, 255, 255, 0.8);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
   transform: translate(-2px, -2px);
 }
 
-.card2{
+.card2 {
   border-radius: 10px 10px 10px 10px;
   width: 75%;
   text-align: justify;
   margin-bottom: 30px;
   border: 2px solid rgb(255, 255, 255);
-  filter: grayscale(100%)
+  filter: grayscale(100%);
 }
 
 .card2:hover {
-  transform: scale(1.10);
-  filter:grayscale(0%)
+  transform: scale(1.1);
+  filter: grayscale(0%);
 }
