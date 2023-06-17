@@ -10,7 +10,7 @@
 }
 
 body {
-  background: linear-gradient(rgb(65, 219, 219), rgb(167, 18, 99));
+  background: linear-gradient(rgb(65, 219, 219), 25%,  rgb(167, 18, 99));
   color: black;
 }
 
