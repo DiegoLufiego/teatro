@@ -98,6 +98,14 @@ span {
 }
 
 .card2:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
   filter: grayscale(0%);
+}
+
+.pergamino{
+  background-image: url("../assets/pergamino.jpg");
+  text-align: center;
+  padding: 25px;
+  font-weight: 800;
+  margin: 25px;
 }
