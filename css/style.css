@@ -94,12 +94,12 @@ span {
   text-align: justify;
   margin-bottom: 30px;
   border: 2px solid rgb(255, 255, 255);
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
 }
 
 .card2:hover {
   transform: scale(1.07);
-  filter: grayscale(0%);
+  /*filter: grayscale(0%);*/
 }
 
 .pergamino{
@@ -111,4 +111,10 @@ span {
   border: 2px solid rgb(158, 163, 17);
   border-radius: 10px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.hastaPronto{
+  color: rgb(225, 9, 207);
+  font-weight: 800;
+  text-align: center;
 }
