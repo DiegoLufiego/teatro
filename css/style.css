@@ -34,6 +34,13 @@ ul{
   left: 0;
 }
 
+.telon{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 img{
     width: 70%;
 }
